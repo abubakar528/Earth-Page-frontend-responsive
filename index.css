@@ -1,0 +1,299 @@
+#navbar {
+  height: auto;
+
+  /* border: 1px solid; */
+  background-color: bisque;
+}
+
+#second {
+  height: auto;
+  /* border: 1px solid; */
+  /* background-color: burlywood; */
+}
+#left {
+  height: 600px;
+  background-color: black;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#circle {
+  height: 350px;
+  width: 350px;
+  /* border-radius: 100%; */
+  /* border: 1px dotted; */
+  /* background-image: url(/earth-removebg-preview.png);
+    background-size: 350px 350px; */
+}
+#circleImg {
+  height: 450px;
+  width: 450px;
+  border-radius: 100%;
+  margin-top: -12%;
+  margin-left: -11%;
+}
+#right {
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.904);
+  float: left;
+}
+#center {
+  height: 100px;
+  width: auto;
+  /* border: 1px solid; */
+  /* background-color: seagreen; */
+  display: flex;
+  align-items: center;
+  color: white;
+}
+#center2 {
+  height: 200px;
+  width: auto;
+  /* border: 1px solid; */
+  /* background-color: yellow; */
+  color: gray;
+}
+#center3 {
+  height: 80px;
+  width: auto;
+  /* border: 6px solid; */
+  background-color: black;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+#center4 {
+  height: 70px;
+  width: auto;
+  /* border: 1px solid; */
+  background-color: rebeccapurple;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+#over {
+  display: inline;
+}
+#over2 {
+  display: inline;
+}
+#over4{
+    display: inline;
+}
+#center5 {
+  height: 70px;
+  width: auto;
+  border: 1px solid;
+  color: white;
+  background-color: black;
+}
+#center6 {
+  height: 70px;
+  width: auto;
+  border: 1px solid;
+  color: white;
+  background-color: black;
+}
+
+#third {
+  height: auto;
+  /* border: 1px solid; */
+  background-color: black;
+}
+li {
+  font-weight: 700;
+}
+
+#third > div {
+  margin-left: 6.5%;
+}
+#t1 {
+  border: 1px solid white;
+  height: 99px;
+  float: left;
+  color: white;
+  background-color: black;
+}
+#it1{
+    height: auto;
+    /* border: 1px solid; */
+    float: left;
+}
+#it2{
+    height: auto;
+    /* border: 1px solid; */
+    float: left;
+}
+#it3{
+    height: auto;
+    /* border: 1px solid; */
+    float: left;
+}
+#last{
+    height: auto;
+    /* border: 1px solid; */
+    float: left;
+    display: none;
+}
+
+#tag{
+    display: inline;
+}
+#t2 {
+  /* border: 1px solid; */
+  border: 1px solid white;
+
+  height: 99px;
+  float: left;
+  color: white;
+  background-color: black;
+}
+#t3 {
+  /* border: 1px solid; */
+  border: 1px solid white;
+
+  height: 99px;
+  color: white;
+  background-color: black;
+
+  float: left;
+}
+#t4 {
+  /* border: 1px solid; */
+  border: 1px solid white;
+
+  height: 99px;
+  color: white;
+  background-color: black;
+
+  float: left;
+}
+#over1{
+    display: none;
+}
+#over3{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  #third > div {
+    margin-left: 0%;
+  }
+  #circleImg {
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+  
+    /* margin-top: ; */
+    margin-left: 1%;
+    margin-top: 0%;
+  }
+  #over{
+      margin-left:0%;
+  }
+
+  #over1{
+      display: block;
+      display: inline;
+      font-size: 20px;
+      font-weight: 700;
+  }
+  #over2{
+      display: none;
+  }
+  #center5{
+      display: flex;
+      align-items: center;
+  }
+  #center3{
+      margin-top: -5px;
+      border: none;
+  }
+
+
+
+
+
+  #center6{
+      display: flex;
+      align-items: center;
+  }
+#over4{
+    display: none;
+}
+#over3{
+    display: block;
+    display: inline;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+
+
+
+
+
+#center2{
+    height: 199px;
+}
+
+#it1{
+    margin-top: 30px;
+    font-size: 30px;
+}
+#it2{
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: flex-end; */
+    justify-content: flex-end;
+    /* margin-left: 2px; */
+}
+
+
+#it3{
+    display: none;
+}
+#last{
+    display: block;
+    display: flex;
+    align-items: flex-end;
+  margin-top: 30px;
+    justify-content: flex-end;
+}
+
+
+
+
+/* here i manage the left div  in mobile view */
+#left{
+    height: 320px;
+}
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  #third > div {
+    margin-left: 0%;
+  }
+}
+
